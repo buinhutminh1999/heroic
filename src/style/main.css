@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar-expand-lg .navbar-nav .active{
+    color: white;
+}
+
+.banner{
+    color: black;
+    padding: 3rem;
+    border-radius: 0.3rem 
+}
+
+.banner-item{
+    padding: 3rem;
+    background-color: rgba(248, 249, 250,1);
+}
+
+.banner-item h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner-item p{
+    font-size: 1.5rem
+}
+
+.banner-item button{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.footer{
+    padding: 3rem;
+}
+
+
+.item{
+    color: black;
+    text-align: center;
+    padding: 3rem;
+}
+
+.item-list{
+    width: 948px;
+    margin: 0 auto;
+}
+
+.item-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;
+    
+}
+
+.item h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card{
+    border: 0;
+    background-color: rgba(248, 249, 250,1);
+    position: relative;
+    text-align: center;
+} 
